@@ -29,6 +29,11 @@ fetch(
     let valueOfDegree = data.wind.deg;
     let valueVisibleDegree = document.querySelector(".deg");
     valueVisibleDegree.innerHTML = valueOfDegree;
+
+    let codeOfIcon = data.weather[0].icon;
+    let iconUrl = `https://openweathermap.org/img/w/${codeOfIcon}.png`;
+    let iconInHtml = document.querySelector(".icon>img");
+    iconInHtml.setAttribute("src", `${iconUrl}`);
   });
 
 let showCity = document.querySelector(".city");
