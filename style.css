@@ -1,0 +1,73 @@
+h2{
+    padding-left: 10px;
+    text-transform: uppercase;
+    color: blueviolet;
+    margin: 0;
+    display: block;
+    font-size: 20px;
+    margin-block-start: 0.;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.main_box{
+    position: relative;
+    margin: 50px auto;
+    width: 800px;
+    height: 500px;
+    border: 1px solid rgb(106, 106, 106);
+    box-shadow: 20px 20px 20px rgb(106, 106, 106), -20px 20px 20px rgb(106, 106, 106),20px -20px 20px rgb(106, 106, 106), -20px -20px 20px rgb(106, 106, 106);
+}
+
+.visible_weather{
+    display: flex;
+}
+.box_temp{
+    display: flex;
+    justify-content: center;
+
+    width: 50%;
+    height: 250px;
+}
+.temp{
+    line-height: 250px;
+    font-size: 70px;
+}
+.temp_item{
+    font-size: 50px;
+    line-height: 210px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 250px;
+}
+.all_description{
+    height: 50%;
+}
+.all_description div{
+    display: flex;
+    height: 20%;
+}
+
+span{
+    padding-left: 20px;
+    color: red;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+sup{
+    font-weight: 400;
+    color: red;
+    padding-left: 2px;
+}
+
+.show_city{
+    position: absolute;
+    top: 0;
+    }
